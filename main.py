@@ -84,3 +84,5 @@ if __name__ == "__main__":
         main(sys.argv[1], sys.argv[2])
     except ValueError:
         print("Incorrect format of IP address")
+    except IndexError:
+        print("Please specify the IP addresses")
